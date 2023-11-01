@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    color:red;
+}
+
+a:focus {
+    text-decoration: none;
+    color:yellow;
+}
+
+h1:hover {
+   color: blue;
+}
+
+h2:hover {
+   color: blue;
+}
+
+h3:hover {
+   color: blue;
+}
+
+h1:focus {
+   color: white;
+}
+
+h2:focus {
+   color: white;
+}
+
+h3:focus {
+  color: white;
+}
+
+html {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+}
+
+#mainpage {
+    background-color: #4d5f75;
+}
+
+H1 {
+    background-color: #bfc3ca;
+    text-align: center;
+    font-size: 2rem;
+}
+
+header {
+    background-color: #bfc3ca;
+    text-align: right;
+}
+
+header img {
+    margin:0.001em;
+}
+
+footer {
+    padding: 10px 50px;
+    background-color: #bfc3ca;
+    text-align: center;
+}
+
+#About {
+    padding: 10px 20rem;
+    font-weight: 700px;
+    text-align: center;
+    color: pink;
+}
+
+/* для артиклей на страничках */
+#Article {
+    background-color: #dfa622;
+    padding: 1em;
+}
+
+#Article:first-line {
+    /*how to make razrazhenyi text???*/
+}
+
+#ArticleOne{
+    background-color: #dfa624;
+    padding: 1em;
+}
+
+#ArticleOneRU:lang(ru) {
+    /* doesnt work pay attention */
+    color:purple;
+}
+
+#ArticleENG:lang(eng) {
+    /* how do i make it work???*/
+}
+
+#ArticleOne:first-line {
+    /*how*/
+}
+
+#ArticleTwo {
+    background-color: #dfa626;
+    padding: 1em;
+}
+
+#ArticleTwo:first-line {
+    /*how*/
+}
+
+#ArticleThree {
+    background-color: #dfa628;
+    padding: 1em;
+}
+
+#ArticleThree:first-line {
+   /*how*/
+}
+
+/*для глав страницы!!!*/
+#article {
+    background-color: #dfa622;
+    padding: 2em;
+}
+
+#aboutsec {
+    text-align: left;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    line-height: 1.5rem;
+    padding: 1em;
+}
+
+nav {
+    background-color: #01050a;
+    padding:1.2em;
+}
+
+main img {
+    padding:1em;
+}
+
+#list {
+    padding: 1em;
+    font-size: large;
+    list-style: square;
+}
+
+li:hover {
+   color:black;
+}
+
+li:focus {
+   color:yellow;
+}
+
+#articleli:hover{
+    text-decoration:double;
+    flex:content;
+}
+
+li:nth-child(even){
+    background-color: #dcc900;
+}
+
+li:nth-child(odd){
+    background-color: #4d5f94;
+}
+
+.after::after {
+    content: "TAKE-a-LOOK";
+    display: inline-block;
+    padding: 0.4em 0.7em;
+    margin-right: 1em;
+    border: 2px solid #f21;
+    background-color: #111;
+    color: #f00;
+    font-weight: bold;
+}
+
+}
+.article p:first-line {
+    letter-spacing: 3px;
+}
+
+p:lang(en){
+    font-style: italic;
+    color: red;
+}
+
+.soc {
+    border: 10px solid #BC0;
+}
+
+img + p {
+    margin-top: 20px;
+  }
+
+
+
+.check-table {
+    border: linear green;
+    border-collapse: collapse;
+}
+
+.check-table td,
+.check-table th{
+    border: dashed 4px black;
+    padding: 10px 10px;
+}
+
+.check-table tr:nth-child(odd){
+font-weight: italic;
+color: #F20;
+
+}
+.check-table td:last-child{
+    background-color:black;
+    color:green;
+}
+.check-table th:last-child{
+background-color: blue;
+text-align: right;
+}
