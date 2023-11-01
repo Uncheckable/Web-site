@@ -86,9 +86,7 @@ footer {
     padding: 1em;
 }
 
-#Article:first-line {
-    /*how to make razrazhenyi text???*/
-}
+
 
 #ArticleOne{
     background-color: #dfa624;
@@ -100,30 +98,18 @@ footer {
     color:purple;
 }
 
-#ArticleENG:lang(eng) {
-    /* how do i make it work???*/
-}
 
-#ArticleOne:first-line {
-    /*how*/
-}
+
 
 #ArticleTwo {
     background-color: #dfa626;
     padding: 1em;
 }
 
-#ArticleTwo:first-line {
-    /*how*/
-}
 
 #ArticleThree {
     background-color: #dfa628;
     padding: 1em;
-}
-
-#ArticleThree:first-line {
-   /*how*/
 }
 
 /*для глав страницы!!!*/
@@ -192,7 +178,7 @@ li:nth-child(odd){
     font-weight: bold;
 }
 
-}
+
 .article p:first-line {
     letter-spacing: 3px;
 }
@@ -232,7 +218,50 @@ color: #F20;
     background-color:black;
     color:green;
 }
+
 .check-table th:last-child{
 background-color: blue;
 text-align: right;
 }
+
+code {
+    background-color: black;
+    color: rgb(30, 206, 30);
+    
+}
+
+img{
+    border-radius: 2em;
+    border: red;
+    box-shadow: #01050a;
+}
+
+#form_item input[type="text"]{
+    height: 20px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: white solid 1px;
+    background-color: #eddfff;
+
+}
+
+#form_item input[type="submit"]{
+    text-decoration: solid;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+#form_item input [type="submit"]{
+    text-decoration: solid;
+    text-transform: capitalize;
+    font-style: italic;
+    color: red;
+    background-color: purple;
+}
+
+#form_item input [type="submit"]:hover{
+    color: rebeccapurple;
+    background-color: purple;
+}
+
